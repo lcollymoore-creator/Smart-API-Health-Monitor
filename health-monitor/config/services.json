@@ -1,0 +1,15 @@
+{
+  "services": [
+    {
+      "name": "users-api",
+      "url": "https://api.example.com/users",
+      "method": "GET",
+      "expectedStatus": 200,
+      "maxResponseTime": 1500,
+      "schema": {
+        "id": "number",
+        "name": "string"
+      }
+    }
+  ]
+}
