@@ -1,15 +1,12 @@
 {
   "services": [
     {
-      "name": "users-api",
-      "url": "https://api.example.com/users",
+      "name": "jsonplaceholder",
+      "url": "https://jsonplaceholder.typicode.com/",
+      "endpoint": "todos/1",
       "method": "GET",
       "expectedStatus": 200,
-      "maxResponseTime": 1500,
-      "schema": {
-        "id": "number",
-        "name": "string"
-      }
+      "maxResponseTime": 1500
     }
   ]
 }
