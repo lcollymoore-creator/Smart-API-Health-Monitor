@@ -1,0 +1,23 @@
+{
+  "name": "smart-api-health-monitor",
+  "version": "1.0.0",
+  "description": "Just for practice",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcollymoore-creator/Smart-API-Health-Monitor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lcollymoore-creator/Smart-API-Health-Monitor/issues"
+  },
+  "homepage": "https://github.com/lcollymoore-creator/Smart-API-Health-Monitor#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}
