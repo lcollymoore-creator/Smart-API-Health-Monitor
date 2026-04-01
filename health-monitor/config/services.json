@@ -2,8 +2,33 @@
   "services": [
     {
       "name": "jsonplaceholder",
-      "url": "https://jsonplaceholder.typicode.com/",
+      "url": "https://jsonplaceholder.typicode.com",
       "endpoint": "todos/1",
+      "method": "GET",
+      "expectedStatus": 200,
+      "maxResponseTime": 1500
+    },
+     {
+      "name": "PokeAPI",
+      "url": "https://pokeapi.co/",
+      "endpoint": "",
+      "method": "GET",
+      "expectedStatus": 200,
+      "maxResponseTime": 1500
+    },
+
+      {
+        "name": "Open-Meteo",
+        "url": "https://api.open-meteo.com/",
+        "endpoint": "",
+        "method": "GET",
+        "expectedStatus": 200,
+        "maxResponseTime": 1500
+      },
+       {
+      "name": "ReqRes",
+      "url": "https://reqres.in/",
+      "endpoint": "",
       "method": "GET",
       "expectedStatus": 200,
       "maxResponseTime": 1500

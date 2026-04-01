@@ -6,7 +6,8 @@ export async function sendRequest({
   endpoint = '',
   method = '',
   headers = {},
-  data = null
+  data = null,
+  serviceName = 'Unknown Service',
 }) {
   const apiContext = await request.newContext({
     baseURL,
